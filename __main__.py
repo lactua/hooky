@@ -82,8 +82,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-from urllib import request
-
-request.Request()
