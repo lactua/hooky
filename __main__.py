@@ -8,7 +8,7 @@ from json import dump, load
 from random import choices
 from string import ascii_letters
 
-HOST = ('45.158.77.206', 80)
+HOST = ('localhost', 80) # Put the IP adress and the port
 
 def genKey(length=9): return ''.join(choices(ascii_letters, k=length))
 
