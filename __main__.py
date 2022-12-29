@@ -62,7 +62,7 @@ def main():
         
         db[key] = webhook
 
-        return f'http://hooky.ddns.net/send/{key}'
+        return f'http://www.lactua.com:80/send/{key}'
 
     @app.route('/send/<key>', methods=['POST'])
     def _send(key):
